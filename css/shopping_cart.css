@@ -1,0 +1,271 @@
+.main-title{
+	padding-left: 20px;
+	width: 100%;
+	height: 60px;
+	border: 1px solid #E2E2E2;
+	border-bottom: 0;
+	background: #fff9f5;
+	line-height: 58px;
+	font-size: 18px;
+	color: #000;
+	font-weight: bold;
+	display: inline-block;
+	margin-top: 2px;
+}
+
+/*购物车标题*/
+.shopping-cart-title{
+	line-height: 54px;
+	height: 60px;
+	border: 1px solid #E2E2E2;
+}
+.shopping-cart-title-text{
+	font-weight: bold;
+	font-size: 18px;
+	display: inline-block;
+	height: 100%;
+	border-bottom: 2px solid #FF2D52;
+}
+
+/*购物车内容抬头*/
+.shoppingCarTile{
+	height: 42px;
+	background: #fff9f5;
+	border: 1px solid #E2E2E2;
+	line-height: 40px;
+	padding: 0 20px;
+}
+.shoppingChose{
+	width: 550px;
+}
+.shoppingGoods{
+	padding-left: 176px
+}
+.chooseall{
+	vertical-align: -2px;
+	padding-left: 25px;
+}
+.shoppingClassify li{
+	float: left;
+	padding: 0px 55px;
+}
+
+/*自营店*/
+.sellself{
+	height: 54px;
+	line-height: 54px;
+}
+.sellselfCheck{
+	vertical-align: -3px;
+	
+}
+/*购物车内容*/
+.shoppingCarContent{
+	height:162px;
+	width: 100%;
+	position: relative;
+	z-index: 0;
+}
+/*详细内容*/
+.shoppingCarDetial{
+	height: 122px;
+	background: #fff9f5;
+	border: 1px solid #E2E2E2;
+	padding: 20px;
+	line-height: 82px;
+}
+.shoppingCarDetialCheck{
+	display: inline-block;
+	vertical-align: 35px;
+}
+.goodsDetials{
+	width:300px ;
+	height: 80px;
+	display: inline-block;
+}
+.goodsText{
+	padding-left: 20px;
+	width: 200px;
+	height: 44px;
+	line-height: 22px;
+}
+/*修改商品*/
+.goodschange{
+	position: absolute;
+	width: 160px;
+	height: 80px;
+	border: 1px dashed #FF2D52;
+	top: 20px;
+	left: 380px;
+}
+.goodstype{
+	line-height: 16px;
+}
+.typechange{
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: #FF2D52;
+	color: #fff;
+	padding-left: 5px;
+	line-height: 20px;
+	font-size: 12px;
+	width: 32px;
+	height: 20px;
+}
+
+
+/*单价*/
+.singprice{
+	width: 72px;
+	height: 80px;
+	position: absolute;
+	top: 20px;
+	left: 606px;
+	line-height: 25px;
+	text-align: center;
+}
+/*团购*/
+.tuangou{
+	display: inline-block;
+	width: 44px;
+	height: 20px;
+	color: #FF2D52;
+	border: 1px solid #FF2D52;
+	border-radius: 3px;
+	line-height: 20px;
+}
+/*数量*/
+.goodsnumber{
+	position: absolute;
+	top: 42px;
+	left: 724px;
+	height: 32px;
+	line-height: 30px;
+	text-align: center;
+	border: 1px solid #E2E2E2;
+}
+
+
+
+.goodsnumber-center{
+	display: inline-block;
+	text-align: center;
+	width: 60px;
+	height: 30px;
+	border: 0;
+	border-left: 1px solid #E2E2E2;
+	border-right: 1px solid #E2E2E2;
+}
+.number-subtract{
+	padding: 0 2px 0 6px;
+}
+.number-add{
+	padding: 0 3px 0 0px;
+}
+
+/*金额*/
+.jine{
+	position: absolute;
+	top: 15px;
+	right: 265px;
+}
+/*删除*/
+.operation{
+	position: absolute;
+	top: 38px;
+	right: 70px;
+	line-height: 20px;
+	text-align: left;
+}
+.delet-button:hover{
+	cursor: pointer;
+}
+/*部分商品总计*/
+.total{
+	width: 1200px;
+	height: 40px;
+	line-height: 6px;
+}
+/*全部商品合计*/
+.totalPrice{
+	width: 100%;
+	height: 68px;
+	background: #f5f5f5;
+	line-height: 40px;
+    padding-left: 20px;
+}
+
+.shoppingChose{
+	width: 550px;
+}
+.delshoppingGoods{
+	padding-left: 20px
+}
+.chooseall{
+	vertical-align: -2px;
+	padding-left: 25px;
+}
+/*结算详情*/
+.totalDetial{
+	width: 435px;
+	height: 100%;
+	padding-right: 10px;
+	line-height: 23px;
+    text-align: right;
+    display: inline-block;
+}
+/*结算按钮*/
+.accounts{
+	display: inline-block;
+	width: 150px;
+	background: #FF2D52;
+	text-align: center;
+	color: white;
+}
+
+
+/*猜你喜欢*/
+
+.guess-like{
+	/*display: inline-block;*/
+	width: 100%;
+	height: 360px;
+	border: 1px solid #E2E2E2;
+	padding: 15px;
+}
+.guess-lists{
+	float: left;
+	width: 20%;
+	height: 100%;
+	border: 1px solid #fff;
+	border-right: 0;
+	padding: 10px;
+}
+.guess-lists:last-child{
+	/*border-right: 1px solid #E2E2E2;*/
+}
+/*猜你喜欢图片设置*/
+.guess-lists-img{
+	width: 210px;
+	height: 210px;
+}
+.guess-lists-text{
+	line-height: 24px;
+}
+.guess-lists-price{
+	
+	width: 210px;
+}
+/*猜你喜欢鼠标移动*/
+.guess-lists:hover{
+	border: 1px solid #E2E2E2;
+	
+}
+
+
+/*chongzhi  主导航的z-index*/
+.shopping_cart-main-nav{
+	z-index: 1;
+}

@@ -1,0 +1,18 @@
+/*秒杀页面css代码存储*/
+
+.seckill-countdown-box{
+	/*height: 84px;*/
+	width: 100%;
+	background: #fff;
+	background-image: url(../img/倒计时横幅.png) ;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+/*倒计时*/
+.countdown{
+	vertical-align: -2px;
+}
+.seckill-countdown-content{
+	line-height: 84px;
+	position: relative;
+}

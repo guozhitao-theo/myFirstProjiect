@@ -1,0 +1,160 @@
+/*大盒子边框*/
+.vip-center{
+	height:642px ;
+	margin-top: 20px;
+	border: 1px solid #E2E2E2;
+}
+/*左边列表*/
+.vip-center-left{
+	width: 228px;
+	height: 100%;
+	border-right: 1px solid #E2E2E2;
+}
+/*会员中心抬头*/
+.vip-icon{
+	width: 100%;
+	height: 60px;
+	background: #fff9f5;
+	line-height: 60px;
+	padding-left: 20px;
+	border-bottom: 1px solid #E2E2E2;
+}
+/*左边列表*/
+.vip-func{
+	width: 100%;
+	height: 582px;
+	/*background: #0086B3;*/
+	padding: 0 15px;
+}
+.vip-func ul{
+	border-bottom: 1px solid #E2E2E2;
+	padding-top: 10px;
+}
+.vip-func-lists{
+	height: 36px;
+	width: 100%;
+	line-height: 29px;
+	margin-left: 30px;
+	/*padding-top: 10px;*/
+}
+.vip-func ul:last-child{
+	border-bottom: 0;
+}
+.vip-func ul li:first-child{
+	list-style: square;
+}
+
+
+/*右边*/
+.vip-center-right{
+	width: 970px;
+	height: 642px;
+	padding: 10px;
+}
+/*右上边*/
+.vip-center-right-top{
+	width: 930px;
+	height: 160px;
+	border: 1px solid #E2E2E2;
+	margin: 10px;
+	background: #fff9f5;
+}
+.head-info{
+	width: 370px;
+	height: 100%;
+	padding: 20px;
+}
+
+/*头像图片*/
+.head-img{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+	background: url(../img/会员头像.png) no-repeat ;
+}
+/*会员姓名*/
+.vip-info{
+	margin-left: 135px;
+}
+/*注册用户*/
+.register{
+	height: 20px;
+	line-height: 20px;
+}
+.register-img{
+	vertical-align: -3px;
+}
+/*充值按钮*/
+.recharge{
+	display: inline-block;
+	width: 50px;
+	height: 25px;
+	background: #FF2D52;
+	border-radius: 4px;
+	text-align: center;
+	line-height: 25px;
+	color: #fff;
+}
+/*积分等*/
+						
+.order-lists{
+	display: inline-block;
+	width: 139px;
+	height: 159px;
+	line-height: 99px;
+	text-align: center;
+	padding: 20px 30px;
+	float: left;
+}
+.order-name{
+	margin-top: -70px;
+	width: 80px;
+	height: 20px;
+}
+.order-number{
+	font-size: 14px;
+	color: #ffbec2;
+}
+
+/*右下边*/
+.vip-center-right-lists{
+	float: left;
+	width: 455px;
+	height: 200px;
+	margin: 10px;
+	border: 1px solid #E2E2E2;
+}
+.goods-info-title{
+	height: 40px;
+	background: #fff9f5;
+	line-height: 40px;
+	padding-left: 20px;
+	padding-right: 10px;
+}
+.goods-show-box{
+	padding: 10px 5px;
+}
+.gods-slide-l{
+	width: 35px;
+	height: 136px;
+	padding: 40px 5px;
+}
+.gods-slide-l-btn{
+	display: inline-block;
+	width: 22px;
+	height: 56px;
+	border: 1px solid #E2E2E2;
+	border-radius: 5px;
+	line-height: 54px;
+	text-align: center;
+}
+.goods-show-content{
+	width: 124px;
+	float: left;
+	display: inline-block;
+	padding: 10px;
+}
+.goods-show-content img{
+	width: 105px;
+	height: 105px;
+}

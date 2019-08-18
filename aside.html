@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>侧边栏</title>
+	</head>
+	<!--清除浏览器默认样式-->
+	<link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+	<!--矢量图样式文件-->
+	<link rel="stylesheet" type="text/css" href="icon-font/iconfont.css"/>
+	<!--公共封装样式-->
+	<link rel="stylesheet" type="text/css" href="css/public.css"/>
+	<!--顶部、底部、侧边栏样式文件-->
+	<link rel="stylesheet" type="text/css" href="css/base.css"/>
+	<!--重写侧边栏样式-->
+	<link rel="stylesheet" type="text/css" href="css/aside.css"/>
+	<body>
+		<!--侧边栏-->
+		<div class="aside">
+			<!--控件列表-->
+			<div class="aside-panel">
+				<!--控件位置-->
+				<div class="aside-bar">
+					<!--控件按钮-->
+					<!--上边控件-->
+					<ul class="aside-bar-lists-top" >
+						<!--会员中心-->
+						<li class="user-center bar-move"><span class="iconfont icon-gerenzhongxin font-18  font-white"></span>
+							<div class="user-center-text">
+								会员中心
+							</div>
+						</li>
+						<!--购物车-->
+						<li class="shopping-cart">
+							<span class=" iconfont icon-gouwuchekong font-18 margin-5-top font-white"></span>
+							<span class="margin-10-top  font-white ">购物车 </span>
+							<span class="shopping-cart-number">2</span>
+						</li>
+						<!--客服-->
+						<li><span class="iconfont icon-service font-20  font-white "></span>
+						</li>
+					</ul>
+					<!--下边控件-->
+					<ul class="aside-bar-lists-bottom" >
+						<!--二维码 -->
+						<li class="qr bar-move"><span class="iconfont icon-erweima font-18  font-white"></span>
+							<div class="qr-img">
+								
+							</div>
+						</li>
+						
+						<!--返回顶部-->
+						<li><span class="return-top iconfont icon-top font-20  font-white "></span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--滑出区域 如购物车内容、客服内容-->
+			<div class="aside-slide">
+				
+			</div>
+		</div>
+		
+		
+	</body>
+	<script src="js/base.js"></script>
+</html>

@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>欢迎登陆</title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+	<link rel="stylesheet" type="text/css" href="icon-font/iconfont.css"/>
+	<link rel="stylesheet" type="text/css" href="css/public.css"/>
+	<link rel="stylesheet" type="text/css" href="css/base.css"/>
+	<link rel="stylesheet" type="text/css" href="css/login&registe.css"/>
+	<body>
+		<!--顶部导航-->
+		<div class="top-nav clearfix">
+			<div class="content">
+				<!--左边浮动-->
+				<div class="fl">
+					<a class="margin-5-lr font-darklight" href="index.html">返回首页</a>
+					<span>|</span>
+					<a class="margin-5-lr font-darklight" href="">收藏本站</a>
+				</div>
+				<!--右边浮动-->
+				<div class="fr">
+					<a class="margin-5-lr font-darklight" href="vip_center.html" >路人甲</span>
+					<span>|</span>
+					<a class="margin-5-lr font-darklight" href="login.html" >退出登录</a>
+					<span>|</span>
+					<a class="margin-5-lr font-darklight" href="shopping_cart.html" >我的订单</a>
+				</div>
+			</div>
+		</div>
+		<div class="header-content  content clearfix">
+			<img class="fl" src="img/logo.jpg"/>
+		</div>
+		<!--内容部分-->
+		<div class="body-content clearfix content">
+			<!--登录部分-->
+			<div class="login  padding-20-top">
+				<div class="login-content">
+					<span class="font-18 font-weight font-darklight">登陆</span>
+					<a class="registe-right-now margin-220-left font-16 font-red">立即注册</a>
+					<span class="gt bg-color-red font-18 font-white font-weight">&gt;</span>
+					<!--提示框-->
+					<div class="Tips margin-17-top">
+						<img class="margin-10-left margin-3-top" src="img/提示灯泡.png"/>
+						<span class="Tips-text  font-14 font-weight font-dark ">公告场合不建议自动登录，以防账号丢失</span>
+					</div>
+					<!--用户名-->
+					<div class="usernam margin-17-top">
+						<div class="login-icon ">
+							<img class=" fl margin-10-left margin-10-top" src="img/user.png" width="20px" height="20px"/>
+						</div>
+						<input class="user-name fr font-12  font-darklight padding-10-left" type="text" placeholder="您的手机/邮箱/用户名"/>
+					</div>
+					<!--密码-->
+					<div class="password margin-17-top">
+						<div class="login-icon ">
+							<img class=" fl margin-10-left margin-10-top" src="img/pssword.png" width="20px" height="20px"/>
+						</div>
+						<input class="password-name fr font-12  font-darklight padding-10-left" type="text" placeholder="密码"/>
+					</div>
+					
+					<!--自动登陆or 忘记密码-->
+					<div class="auto-login margin-17-top">
+						<input class="cekb" type="checkbox"  value="自动登陆"  checked=""/>
+						<span class="margin-5-left">自动登陆</span>
+						<a class="fr">忘记密码 ?</a>
+					</div>
+					<!--登陆按钮-->
+					<a class="font-22 login-btn font-white bg-color-red margin-17-top" href="index.html">登陆</a>
+					<!--其他方式登陆-->
+					<div class="others-ways margin-17-top">
+						<span class="font-darklight other-login-text   ">使用第三方账号登陆:</span>
+						<img class="margin-15-left other-login-icon " src="img/qq.png"/>
+						<img class="margin-15-left other-login-icon " src="img/微信.png"/>
+						<img class="margin-15-left other-login-icon " src="img/新浪微博.png"/>
+					</div>
+				</div>
+			</div>
+			<!--注册部分-->
+			<div class="registe">
+				<!--注册标题-->
+				<div class="registe-title">
+					<span class="font-gry font-18">注册账户</span>
+					<a class="longin-right-now font-red fr">立即登录</a>
+					<span class="fr">已有账号？</span>
+				</div>
+				<!--账号错误提示-->
+				<div class="account-error font-12">
+					请输入正确的电话号码，且为11位纯数字格式
+				</div>
+				<!--请输入手机号-->
+				<div class="telnumber-input-box font-gry clearfix ">
+					<span class="iconfont icon-shouji font-24 fl "></span>
+					<input class="telnumber-input fl" type="text" placeholder="请输入您的手机号"/>
+				</div>
+				<!--建议使用常用手机-->
+				<div class="suggest font-gry">
+					<span class="iconfont icon-yduigantanhaoshixin "></span>
+					<span>建议使用常用手机</span>
+				</div>
+				<!--请输入验证码-->
+				<div class="verification-code-box clearfix">
+					<div class="verification-code-content fl">
+						<span class="iconfont icon-anquan font-18 font-gry"></span>
+						<input type="text" placeholder="请输入验证码" />
+					</div>
+					<a class="get-verific fr">获取验证码</a>
+				</div>
+				<!--请输入密码-->
+				<div class="password-input-box margin-20-top">
+					<span class="iconfont icon-mimasuo font-gry font-20"></span>
+					<input class="password-input " type="password" placeholder="请输入密码，至少六个字符"  />
+				</div>
+				<!--确认密码-->
+				<div class="password-ack-box margin-20-top">
+					<span class="iconfont icon-mimasuo font-gry font-20"></span>
+					<input class="password-ack " type="password" placeholder="请确认密码"  />
+				</div>
+				<!--用户协议-->
+				<div class="user-protocol">
+					<label>
+						<input  class="protocol-checkbox" type="checkbox" />
+						<span>我已阅读并同意</span>
+					</label>
+					<a class="font-red">《洋货码头用户注册协议》</a>
+				</div>
+				<!--立即注册-->
+				<a class="regite-rightnow">立即注册<a>
+			</div>
+		</div>
+		<!--底部-->
+		<div class="bottom-box margin-10-top ">
+			<div class="bottom-header content padding-30-tb ">
+				
+				<div class="bottom-header-first clearfix margin-25-lr">
+					<div class="bottom-header-left fl">
+						<span class="bottom-header-left-text  font-36 font-red font-weight">正</span>
+						
+					</div>
+					<div class="bottom-header-right fl">
+						<span class="text-top font-weight">正品保证</span>
+						<span class="text-bottom font-darklight">100%正品商城</span>
+					</div>
+				</div>
+				
+				<div class="bottom-header-first clearfix margin-25-lr">
+					<div class="bottom-header-left fl">
+						<span class="bottom-header-left-text  font-36 font-red font-weight">税</span>
+
+					</div>
+					<div class="bottom-header-right fl">
+						<span class="text-top font-weight">税费</span>
+						<span class="text-bottom font-darklight">100%税费透明</span>
+					</div>
+				</div>
+				
+				<div class="bottom-header-first clearfix margin-25-lr">
+					<div class="bottom-header-left fl">
+						<span class="bottom-header-left-text  font-36 font-red font-weight">价</span>
+
+					</div>
+					<div class="bottom-header-right fl">
+						<span class="text-top font-weight">价格</span>
+						<span class="text-bottom font-darklight">价格适中</span>
+					</div>
+				</div>
+				
+				<div class="bottom-header-first clearfix margin-25-lr">
+					<div class="bottom-header-left fl">
+						<span class="bottom-header-left-text  font-36 font-red font-weight">物</span>
+
+					</div>
+					<div class="bottom-header-right fl">
+						<span class="text-top font-weight">物流</span>
+						<span class="text-bottom font-darklight">物流便捷</span>
+					</div>
+				</div>
+				
+				<div class="bottom-header-first clearfix margin-25-lr">
+					<div class="bottom-header-left fl">
+						<span class="bottom-header-left-text  font-36 font-red font-weight">售</span>
+
+					</div>
+					<div class="bottom-header-right fl">
+						<span class="text-top font-weight">售后</span>
+						<span class="text-bottom font-darklight">保证交易安全</span>
+					</div>
+				</div>
+				
+				
+			</div>
+			<div class="bottom-body content">
+				<div class="box-bottom-nav text-center  text-hidden">
+					<h2 class="margin-10-top">购物指南</h2>
+					<p class="margin-20-top">购物流程</p>
+					<p class="margin-10-top">发票制度</p>
+					<p class="margin-10-top">账户管理</p>
+					
+				</div>
+				
+				<div class="box-bottom-nav text-center  text-hidden">
+					<h2 class="margin-10-top">购物指南</h2>
+					<p class="margin-20-top">购物流程</p>
+					<p class="margin-10-top">发票制度</p>
+					<p class="margin-10-top">账户管理</p>
+					
+				</div>
+				<div class="box-bottom-nav text-center  text-hidden">
+					<h2 class="margin-10-top">购物指南</h2>
+					<p class="margin-20-top">购物流程</p>
+					<p class="margin-10-top">发票制度</p>
+					<p class="margin-10-top">账户管理</p>
+					
+				</div>
+				
+				<div class="box-bottom-nav text-center text-hidden">
+					<h2 class="margin-10-top">购物指南</h2>
+					<p class="margin-20-top">购物流程送哦i都流口水的送哦i都流口水的送哦i都流口水的</p>
+					<p class="margin-10-top">发票制度</p>
+					<p class="margin-10-top">账户管理</p>
+					
+				</div>
+				
+				<div class="box-bottom-nav text-center  text-hidden ">
+					<h2 class="margin-10-top">流程送哦i都流口水的送哦i都流购物指南</h2>
+					<p class="margin-20-top">购物流程</p>
+					<p class="margin-10-top">发票制度</p>
+					<p class="margin-10-top">账户管理</p>
+					
+				</div>
+				
+				<!--服务热线-->
+				<div class="service  padding-10-top margin-25-left fr">
+					<p class="font-30 ">
+						400-829-8366
+					</p>
+					<p class="margin-10-top">
+						周一至周日8:00-18:00
+					</p>
+					<p class="margin-10-top">全国统一服务热线
+					</p>
+				</div>
+			</div>
+		</div>
+		<!--底部认证信息-->
+		<div class="bottom-info margin-30-top bg-color-dark">
+			<div class="bottom-info-content content clearfix">
+				<img  class="bottom-info-content-img" src="img/认证1.png"/>
+				<img class="bottom-info-content-img" src="img/认证2.png"/>
+				<span class="bottom-info-content-text  font-white margin-50-left">版权所有： 西安国际陆港电子商贸有限公司   &nbsp;   &nbsp; 陕ICP备： 15013404号</span>
+			</div>
+		</div>
+		<!--侧边导航-->
+		<div class="aside">
+			<!--控件列表-->
+			<div class="aside-panel">
+				<!--控件位置-->
+				<div class="aside-bar">
+					<!--控件按钮-->
+					<!--上边控件-->
+					<ul class="aside-bar-lists-top" >
+						<!--会员中心-->
+						<li class="user-center bar-move"><span class="iconfont icon-gerenzhongxin font-18  font-white"></span>
+							<div class="user-center-text">
+								会员中心
+							</div>
+						</li>
+						<!--购物车-->
+						<li class="shopping-cart slide-bar">
+							<span class=" iconfont icon-gouwuchekong font-18 margin-5-top font-white"></span>
+							<span class="margin-10-top  font-white ">购物车 </span>
+							<span class="shopping-cart-number">2</span>
+						</li>
+						<!--客服-->
+						<li class="sevice bar-move slide-bar"><span class="iconfont icon-service font-20  font-white "></span>
+							<div class="sevice-text">
+								客服
+							</div>
+						</li>
+					</ul>
+					<!--下边控件-->
+					<ul class="aside-bar-lists-bottom" >
+						<!--二维码 -->
+						<li class="qr bar-move"><span class="iconfont icon-erweima font-18  font-white"></span>
+							<div class="qr-img">
+								
+							</div>
+						</li>
+						
+						<!--返回顶部-->
+						<li class="return-top-box"><span class="return-top iconfont icon-top font-20  font-white "></span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<!--滑出区域 如购物车内容、客服内容-->
+			<div class="aside-slide">
+				<!--购物车-->
+				<div class="slide-shopping-cart">
+					<div class="slide-shopping-cart-title">
+						<span class="iconfont font-22 icon-gouwuchekong padding-10-left"></span>
+						<span class="font-18 font-weight padding-10-left">购物车<span>
+					</div>
+					<div class="slide-shopping-cart-content">
+						<img class="slide-shopping-cart-content-img fl" src="img/占位图.png"/>
+						<div class="slide-shopping-cart-content-right fr">
+							<p class="slide-shopping-cart-text text-hidden-2">实物商品标题实物商品标题实物商品标题实物商品标题实物商品标题实物商品标题实物商品标题实物商品标题实物商品标题实物商品标题</p>
+							<span class="slide-shopping-cart-price font-12 font-red padding-5-left margin-20-top">￥99.99</span>
+							<a class="slide-shopping-cart-del">删除</a>
+						</div>
+						
+						
+						
+					</div>
+					<!--底部总价-->
+					<div class="slide-shopping-cart-bottom">
+						<p><span>共计</span>
+						   <span>1</span>
+						   <span>件商品，总计:</span>
+						   <span class="font-red">￥2333.00</span>
+						</p>
+						<a class="slide-shopping-cart-btn" href="shopping_cart.html">去购物车提交</a>
+					</div>
+				</div>
+				<!--客服滑框-->
+				<div class="slide-service">
+					<!--客服标题-->
+					<div class="slide-service-title">
+						<h2 class="font-24 font-red">在线客服</h2>
+						<p class="font-14 margin-10-top">服务时间: 8:00-20:00 </p>
+					</div>
+					<!--选择客服-->
+					<div class="slide-service-content">
+						<p>请选择宁需要咨询的内容</p>
+						<ul class=" slide-service-content-lists">
+							<li><span class="iconfont icon-service font-red font-36"></span>
+								<a class="lide-service-content-call">在线客服0</a>
+							</li>
+							
+							<li><span class="iconfont icon-service font-red font-36"></span>
+								<a class="lide-service-content-call">在线客服0</a>
+							</li>
+							
+							<li><span class="iconfont icon-service font-red font-36"></span>
+								<a class="lide-service-content-call">在线客服1</a>
+							</li>
+							
+							<li><span class="iconfont icon-service font-red font-36"></span>
+								<a class="lide-service-content-call">在线客服1</a>
+							</li>
+							
+							<li><span class="iconfont icon-service font-red font-36"></span>
+								<a class="lide-service-content-call">在线客服1</a>
+							</li>
+							
+							<li><span class="iconfont icon-service font-red font-36"></span>
+								<a class="lide-service-content-call">在线客服1</a>
+							</li>
+						</ul>
+					</div>
+					<!--客服底部-->
+					<div class="slide-service-bottom">
+						<div class="slide-service-icon">
+							<img src="img/电话.png"/>
+							<div class="fr padding-10-right ">
+								<p class="font-18 font-weight">400专线</p>
+								<p>周一至周日 9:00-18:00</p>
+							</div>
+							
+							<span class="slide-service-number font-28 font-red font-weight">400-829-8866</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="js/jquery-2.1.0.js"></script>
+	<script src="js/base.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/login&registe.js"></script>
+</html>

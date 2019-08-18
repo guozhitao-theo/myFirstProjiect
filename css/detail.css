@@ -1,0 +1,546 @@
+
+/*存放详情页面的css*/
+
+
+/*位置导航*/
+.position-nav{
+	height: 48px;
+	font-size: 12px;
+	line-height: 47px;
+}
+/*图片演示盒子*/
+.goods-show-box{
+	/*height: 560px;*/
+	border: 1px solid #E2E2E2;
+}
+/*左侧大图显示盒子*/
+.goods-show-left{
+	width: 441px;
+	border-right: 1px solid #E2E2E2;
+	padding: 20px;
+}
+/*左侧大图大小设置*/
+.goods-show-left-img{
+	width: 400px;
+	height: 400px;
+}
+/*小图片滑动框*/
+.little-img-box{
+	height: 56px;
+	margin: 20px 0;
+}
+/*图片点击滑动按钮*/
+.little-img-btn{
+	display: inline-block;
+	width: 24px;
+	height: 100%;
+	border: 1px solid #E2E2E2;
+	border-radius: 4px;
+	line-height: 54px;
+	text-align: center;
+}
+/*按钮的hover*/
+.little-img-btn:hover{
+	background: #f7f7f7;
+}
+
+/*小图标列表*/
+.little-img-lists li{
+	float: left;
+	padding: 0 5px;
+	
+}
+.little-img-lists{
+	width: 4000px;
+	padding-left: 33px;
+	position: absolute;
+	top: 0px;
+	left: -24px;
+}
+/*左边小图标列表切换的外盒子*/
+.little-img-lists-box{
+	background: #DD4A68;
+	margin-left: 30px;
+	height: 58px ;
+	width: 340px;
+	padding-left: 10px;
+	position: relative;
+	overflow: hidden;
+}
+/*小图标大小设置*/
+.little-img{
+width: 56px;
+height: 56px;
+}
+/*分享标签样式*/
+.goods-show-left-share{
+	height: 100%;
+	width: 100%;
+	line-height: 29px;
+}
+/*图片盒子*/
+.show-left-share-img{
+	padding-top: 3px;
+}
+/*图片位置设置*/
+.share-img{
+	padding-left: 5px;
+}
+.left-collect-btn{
+	width: 80px;
+	height: 100%;
+	border: 1px solid #E2E2E2 ;
+	border-radius: 4px;
+	text-align: center;
+	line-height: 30px;
+}
+/*右边简介*/
+.goods-show-right{
+	/*padding: 20px 26px;*/
+	color: gray;
+	width: 757px;
+}
+/*商品生产国国旗*/
+.goods-country-img{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	vertical-align: -6px;
+}
+
+.goods-country-img img{
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;	
+}
+/*商品名称以及广告*/
+.goods-name-box{
+	height: 74px;
+	width: 705px;
+	margin-top: 15px;
+	line-height: 24px;
+}
+
+/*商品价格*/
+.goods-price{
+	background : #fff9f5;
+	position: relative;
+	height: 100px;
+	width: 100%;
+	z-index: -1;
+}
+/*倒计时*/
+.count-down{
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+/*团购价包邮设置*/
+.goods-show-right-group{
+	display: inline-block;
+	background: #ff6600;
+	padding: 2px 5px;
+	border-radius: 3px;
+	color: white;
+}
+/*商品类型*/
+.goods-show-right-optional{
+	line-height: 48px;
+}
+.optional-img-lists{
+	width: 669px;
+	height: 48px;
+	overflow: hidden;
+}
+.optional-img-lists li{
+	float: left;
+}
+.optional-img{
+	width: 48px;
+	height: 48px;
+}
+/*数量库存*/
+.stock-number-btn{
+	display: inline-block;
+	width:20px ;
+	height: 30px;
+	border: 1px solid #E2E2E2;
+	text-align: center;
+	line-height: 28px;
+}
+.stock-number-input{
+	width: 60px;
+	height: 30px;
+	border: 1px solid #E2E2E2;
+	text-align: center;
+}
+/*立即抢买和加入购物车*/
+.shopping-addcart-btn{
+	display: inline-block;
+	padding: 15px;
+	border: 1px solid #E2E2E2;
+	background: #FF6600;
+	border-radius: 5px;
+	color: #fff;
+	margin-left: 65px;
+}
+.shopping-addcart-btn:hover{
+	color: #fff;
+	background:#f16349 ;
+}
+.shopping-now{
+	display: inline-block;
+	padding: 15px;
+	border: 1px solid #E2E2E2;
+	background: #FF2D52;
+	border-radius: 5px;
+	color: #fff;
+}
+.shopping-now:hover{
+	background: #EC193E;
+	color: #fff;
+}
+/*猜你喜欢*/
+.left-guess-like{
+	width: 222px;
+	border: 1px solid #E2E2E2
+}
+.guess-title{
+	width: 220px;
+	height: 40px;
+	line-height: 39px;
+	background: #fff9f5;
+	text-align: center;
+	border-bottom: 1px solid #E2E2E2;
+}
+/*猜你喜欢列表*/
+.left-guess-u-like{
+}
+.left-guess-u-like li{
+	display: inline-block;
+	height: 85px;
+	border-bottom: 1px dashed #E2E2E2;
+	padding: 10px;
+}
+.guess-like-img{
+	width: 64px;
+	height: 64px;
+}
+.text-box{
+	width: 136px;
+	height: 64px;
+	padding-left: 10px;
+	line-height: 19px;
+}
+.left-guess-u-like li:last-child{
+	border: 0;
+}
+/*右侧商品信息以及评论*/
+.right-content{
+	width: 960px;
+	margin-left: 18px;
+	margin-top: 20px;
+}
+/*商品导航*/
+.goods-nav{
+	height: 40px;
+	background :#fff9f5;
+	line-height: 40px;
+}
+.goods-nav a{
+	padding: 0 20px;
+}
+/*商品详情*/
+.goods-introduce{
+	padding-left:15px;
+	line-height: 36px;
+}
+.goods-introduce li{
+	float: left;
+	padding-right: 40px;
+}
+.goods-img{
+	height: 608px;
+	width: 100%;
+}
+.goods-detial{
+	border: 1px solid #E2E2E2;
+	
+}
+/*商品晒单评价*/
+.appraise{
+	height: 122px;
+	width: 100%;
+	border: 1px solid #E2E2E2;
+	margin-top: 20px;
+	padding: 15PX;
+}
+.appraise-box{
+	height: 90px;
+	width: 880px;
+}
+.appraise-per{
+	width: 100px;
+	height: 80px;
+	margin-top: 24px;
+	text-align: center;
+	line-height: 25px;
+}
+/*评价等级*/
+.Grade-of-evaluation{
+	padding-top: 10px;
+	line-height: 10px;
+	width:580px ;
+	border-right: 1px solid #E2E2E2;
+}
+.Grade-of-evaluation li{
+	padding-top: 10px;
+}
+/*进度条盒子*/
+.rate-box{
+	margin-left: 10px;
+	display: inline-block;
+	width: 200px;
+	height: 12px;
+	background: #E2E2E2;
+}
+.rate-a{
+	display: inline-block;
+	width: 60%;
+	height: 100%;
+	background: #FF2D52;
+}
+/*发表评论按钮*/
+.comments-btn{
+	display: inline-block;
+	width: 115px;
+	height: 40px;
+	background: #FF2D52;
+	color: #fff;
+	border-radius: 1px;
+	line-height: 40px;
+	text-align: center;
+}
+/*全部评论导航*/
+.all-coment-nav{
+	width: 100%;
+	height: 40px;
+	background: #fff9f5;
+}
+.all-coment-nav a{
+	display: inline-block;
+	padding: 0 25px;
+	line-height: 40px;
+}
+.all-conment-box{
+	border: 1px solid #E2E2E2;
+}
+/*发表评论栏*/
+.commenting-box{
+	
+	padding: 20px 20px 10px;
+	border: 1px solid #E2E2E2;
+	margin-bottom: 10px;
+	width: 958px;
+	display: none;
+}
+/*设置评论框的宽高*/
+.commenting-content{
+	display: inline-block;
+	height: 65px;
+	width: 655px;
+	margin:0 20px;
+	vertical-align: top;
+	outline: none;
+	padding: 5px;
+}
+
+
+
+/*用户头像*/
+.user-avatar{
+	line-height: 20px;
+	width: 64px;
+	text-align: center;
+}
+.user-avatar-img{
+	width: 64px;
+	height: 64px;
+}
+.all-conment-conten li{
+	padding-top: 30px;
+	display: inline-block;
+	border-bottom: 1px solid #E2E2E2;
+}
+.all-coment-detail{
+	width: 850px;
+}
+.detial-text-content{
+	line-height: 22px;
+}
+/*评论图片列表*/
+/**/
+.conment-img-lists{
+	margin-top: 20px;
+	padding-bottom: 20px;
+	/*border-bottom: 1px dashed #E2E2E2;*/
+}
+.conment-img-lists li{
+	padding-top: 5px;
+	padding-right: 10px;
+	border: 0;
+}
+.conment-img-lists li img{
+	width: 56px;
+	height: 56px;
+}
+/*客服回复*/
+.server-answer{
+	display: inline-block;
+	line-height:46px;
+	border-top: 1px dashed #E2E2E2;
+}
+/*商品咨询*/
+.all-conment-box2{
+	margin-top: 80px;
+	border: 1px solid #E2E2E2;
+}
+.all-conment-box2-box{
+	height: 90px;
+	width: 100%;
+	border: 1px solid #E2E2E2;
+	
+}
+.all-conment-box2-Reminder{
+	height: 90px;
+	width: 80%;
+	padding: 10px 0 20px 15px;
+	border-right: 1px solid #E2E2E2;
+	line-height: 26px;
+}
+.consultation-box{
+	width: 190px;
+	height: 100%;
+	line-height: 90px;
+	text-align: center;
+}
+.consultation{
+	display: inline-block;
+	width: 115px;
+	height: 40px;
+	background: #FF2D52;
+	line-height: 40px;
+	color: #FFF;
+}
+/*销售记录*/
+.sales-records{
+	margin-top: 80px;
+	border: 1px solid #E2E2E2;
+}
+/*销售记录标题*/
+.sales-records-title{
+	height: 40px;
+	background: #fff9f5;
+	line-height: 40px;
+	padding-left: 10px;
+	font-weight: bold;
+}
+.sales-records-lists-box{
+	border-top: 1px solid #E2E2E2;
+	padding: 0 20px 0 10px;
+}
+.sales-records-list li{
+	float: left;
+	display: inline-block;
+	border-bottom: 1px dashed #E2E2E2;
+	height: 40px;
+	padding: 0 90px 0 50px;
+	line-height: 39px;
+}
+.border-bottom .sales-records-list li{
+	border: 0;
+}
+.border-0 .sales-records-list li{
+	border: 0;
+}
+
+/*推荐商品*/
+.recommend-commodit{
+	margin-top: 80px;
+	border: 1px solid #E2E2E2;
+}
+.recommend-commodit-title{
+	height: 40px;
+	background: #fff9f5;
+	line-height: 40px;
+	padding: 0 20px;
+	font-weight: bold;
+	border-right: 1px solid #E2E2E2;
+}
+/*推荐商品内容*/
+.recommend-commodit-box{
+	height: 274px;
+	padding: 20px;
+}
+.recommend-commodit-box li{
+	float: left;
+	margin-right: 19px;
+}
+.recommend-commodit-img{
+	width: 168px;
+	height: 168px;
+}
+.recommend-commodit-detil{
+	width: 168px;
+	line-height: 20px;
+}
+.recommend-commodit-box li:last-child{
+	margin-right: 0px;
+}
+
+
+
+
+
+
+
+/*分页*/
+.page-box{
+
+	margin-left: 600px;
+	margin-top: 20px;
+}
+.page-box li{
+	padding: 0 5px;
+	
+	float: left;
+}
+.page-button{
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	border: 1px solid #E2E2E2;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 30px;
+	
+}
+
+.page-up{
+	background: #f2f2f2;
+	
+}
+.page-up, .page-down{
+	width: 68px;
+	height: 30px;
+	border: 1px solid #E2E2E2;
+	border-radius: 5px;
+}
+/*翻页hover*/
+.page-button:hover{
+	background: #FF2D52;
+}
+.page-up:hover{
+	background: #f2f2f2;
+	cursor: not-allowed;
+}

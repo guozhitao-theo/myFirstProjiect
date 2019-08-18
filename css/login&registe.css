@@ -1,0 +1,201 @@
+/*<--------分割线---------------->*/
+/*登陆界面*/
+.body-content{
+	height: 476px;
+	position: relative;
+	padding: 20px 0;
+	padding-left: 765px;
+	padding-right: 140px;
+	margin: ;
+	background: url(../img/login-banner.png);
+}
+/*登录*/
+.login{
+	margin-top: 30px;
+	width: 347px;
+	height: 362px;
+	background: #fff;
+	/*position: absolute;
+	top: 63px;
+	right: 60px;
+	z-index: 1;*/
+	min-width: 307px;
+	/*display: none;*/
+}
+.login-content{
+	width: 307px;
+	margin: 0px auto;
+}
+.margin-220-left{
+	margin-left: 165px;
+}
+.gt{
+	display: inline-block;
+	width: 17px;
+	height: 17px;
+	border-radius: 50%;
+	margin-left: 0px;
+	font-size: 16px;
+	line-height: 16px;
+	text-align: center;
+}
+/*提示框*/
+.Tips{
+	width: 306px;
+	height: 27px;
+	border: 2px solid #ff92a5;
+	background: #fff9f5;
+	background-image: url(../img/提示灯泡.png) no-repeat;
+}
+.margin-3-top{
+	margin-top: 4px;
+}
+.Tips-text{
+	line-height: 22px;
+	vertical-align: 4px;
+}
+/*用户名*/
+.usernam, .password{
+	height: 40px;
+	width: 306px;
+	border: 1px solid #cccccc;
+	font-size: 0;
+	
+}
+.login-icon{
+	width: 40px;
+	height: 40px;
+	border-right: 1px solid #cccccc;
+	text-align: center;
+	vertical-align: 5px;
+}
+.user-name, .password-name{
+	width: 262px;
+	height: 35px;
+	margin-top: -40px;
+	border: 0;
+
+}
+/*自动登陆*/
+.cekb{
+	vertical-align: -2px;
+}
+/*登陆按键*/
+.login-btn{
+	display: inline-block;
+	height: 40px;
+	width: 306px;
+	text-align: center;
+	line-height: 40px;
+}
+/*其他登陆方式*/
+.others-ways{
+	height: 40px;
+	width: 306px;
+	vertical-align: middle;
+}
+.other-login-text{
+	line-height: 40px;
+} 
+.other-login-icon{
+	margin-bottom: -8px;
+}
+
+
+/*注册*/
+.registe{
+	width: 350px;
+	height: 420px;
+	background:#fff;
+	margin-top: 5px;
+	padding: 20px;
+	display: none;
+}
+/*账号错误提示*/
+.account-error{
+	width: 270px;
+	height: 30px;
+	line-height: 20px;
+	background-size: cover;
+	padding-left: 10px;
+	background: url(../img/错误提示.png) no-repeat;
+}
+/*请输入手机号码*/
+.telnumber-input-box{
+	width: 100%;
+	line-height: 36px;
+	padding: 0 10px;
+	border: 1px solid #E2E2E2;
+}
+.telnumber-input{
+	border: 0;
+	height: 38px;
+	margin-bottom: 3px;
+}
+/*建议使用常用手机*/
+.suggest {
+	width: 100%;
+	line-height: 24px;
+	padding-left: 13px;
+}
+/*请输入验证码*/
+.verification-code-content{
+	border: 1px solid #E2E2E2;
+	width: 206px;
+	padding-left: 10px;
+}
+.verification-code-content input{
+	height: 40px;
+	border: 0;
+}
+/*获取验证码*/
+.get-verific{
+	display: inline-block;
+	width: 100px;
+	height: 42px;
+	background: #FF2D52;
+	color: #fff;
+	line-height: 42px;
+	text-align: center;
+	border-radius: 3px;
+}
+/*请输入密码*/
+.password-input-box{
+	width: 100%;
+	border: 1px solid #E2E2E2;
+	padding: 0 10px;
+}
+.password-input{
+	height: 40px;
+	border: 0;
+}
+/*确认密码*/
+.password-ack-box{
+	width: 100%;
+	border: 1px solid #E2E2E2;
+	padding: 0 10px;
+}
+.password-ack{
+	height: 40px;
+	border: 0;
+}
+/*用户协议*/
+.user-protocol{
+	margin-top: 30px;
+}
+.protocol-checkbox{
+	vertical-align: -2px;
+}
+/*立即注册*/
+.regite-rightnow{
+	margin-top: 20px;
+	display: inline-block;
+	width: 306px;
+	height: 40px;
+	background: #FF2D52;
+	color: #fff;
+	text-align: center;
+	border-radius: 3px;
+	line-height: 40px;
+	font-size: 16px;
+}
