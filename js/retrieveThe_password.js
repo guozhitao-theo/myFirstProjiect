@@ -35,7 +35,7 @@ function delayer(){
 		$('.complete-detail .time-down span').html(index +'S ')
 		index--
 		if(index<=0){
-			window.location ='login.html'
+			window.location ='login&registe.html'
 			clearInterval()
 		}
 		

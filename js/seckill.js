@@ -4,7 +4,7 @@
 countDownT()
 var countInterval =  setInterval(countDownT,1000 )
 function countDownT(){
-	var countDownTime = countDown('2019-8-15 20:24:00')
+	var countDownTime = countDown('2019-8-22 20:24:00')
 	if(parseInt(countDownTime)<=0){
 		clearInterval(countInterval)
 	}
