@@ -32,7 +32,7 @@
 }
 .vip-func-lists{
 	height: 36px;
-	width: 100%;
+	width: 170px;
 	line-height: 29px;
 	margin-left: 30px;
 	/*padding-top: 10px;*/
@@ -43,8 +43,19 @@
 .vip-func ul li:first-child{
 	list-style: square;
 }
-
-
+/*我的订单*/
+.vip-func-lists-num{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	background: #FF2D52;
+	color: #fff;
+	text-align: center;
+	line-height: 16px;	
+	border-radius: 4px;
+	float: right;
+	margin-top: 6px
+}
 /*右边*/
 .vip-center-right{
 	width: 970px;
@@ -157,4 +168,30 @@
 .goods-show-content img{
 	width: 105px;
 	height: 105px;
+}
+
+/*右边*/
+.first-page{
+	display: none;
+}
+/*实名认证*/
+.real-name{
+	display: inline-block;
+	height: 48px;
+	font-size: 16px;
+	line-height: 48px;
+	border-bottom: 2px solid #FF2D52;
+}
+.real-name-box{
+	border-bottom: 1px solid #E2E2E2;
+}
+.regulations-box{
+	margin-top: 20px;
+	height: 108px;
+	border: 1px solid #E2E2E2;
+	font-size: 12px;
+	padding: 20px;
+}
+.real-detail-box{
+	height: 500px;
 }
