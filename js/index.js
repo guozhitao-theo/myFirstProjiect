@@ -202,55 +202,56 @@ Tabchange('.table-title','.tab-box2','.tab-lists')
 Tabchange('.table-title','.tab-box3','.tab-lists')
 Tabchange('.table-title','.tab-box4','.tab-lists')
 //<----------从服务器获取内容渲染网页------>
-
-//为了方便图片的地址调用定义一个地址的前缀
-
-
-//<-----------首页数据渲染（ajax）---------------------->
-
-//定义链接的前缀
-var requestUrl = 'http://127.0.0.1:3001/' 
-//推荐商品
-ajaxPackage({
-	method:'get',
-	url: requestUrl+'lists',
-	ansyc: true,
-	data: null,
-	dataType: 'json',
+//定义一个地址前缀
+var indexUrl = 'http://localhost:3001/'
+//轮播图渲染
+$.ajax({
+	url:indexUrl+'getbanner',
+	type: 'get',
+	async: true,
+	datatype: 'json',
 	success: function(res){
-		console.log(res)
+		if(res.success){
+			var bannerLists = res.list
+			var bannerHtml =  `<img class="carsol-img-img" src="${indexUrl+bannerLists[bannerLists.length-1].img}"/> `
+			for(i=0;i<bannerLists.length;i++){
+				bannerHtml +=`<img class="carsol-img-img" src="${indexUrl+bannerLists[i].img}"/> `
+			}
+			bannerHtml +=`<img class="carsol-img-img" src="${indexUrl+bannerLists[0].img}"/> `
+			$('.carsol-img').html(bannerHtml)
+		}
 	}
 })
-//促销商品
-ajaxPackage({
-	method:'get',
-	url: requestUrl+'lists?id=1',
-	ansyc: true,
-	data: null,
-	dataType: 'json',
-	success: function(res){
-		console.log(res)
-	}
-})
-//新品推荐
-ajaxPackage({
-	method:'get',
-	url: requestUrl+'lists?id=2',
-	ansyc: true,
-	data: null,
-	dataType: 'json',
-	success: function(res){
-		console.log(res)
-	}
-})
-//轮播图
-ajaxPackage({
-	method:'get',
-	url: requestUrl+'getbanner',
-	ansyc: true,
-	data: null,
-	dataType: 'json',
-	success: function(res){
-		console.log(res)
-	}
-})
+//推荐商品渲染
+for(j=0;j<$('.merchandise-classify').length;j++){
+	recommendedData(j)
+}
+
+function  recommendedData(id){
+	$.ajax({
+		url: indexUrl+'lists?id='+id,
+		type: 'get',
+		async: true,
+		datatype: 'json',
+		success: function(res){
+			if(res.success){
+				var tableChangeLists = res.list
+				var tableChangehtml = ''
+				for(i=0;i<tableChangeLists.length;i++){
+					tableChangehtml += 
+						`<li class="merchandise-classify-lists">
+							<img class="merchandise-img" src="${indexUrl+tableChangeLists[i].img}"/>
+							<div class="merchandise-text font-14px text-hidden">
+								${tableChangeLists[i].title}
+							</div>
+							<div class="merchandise-price font-14 font-red">
+								${tableChangeLists[i].price}
+							</div>
+						</li>`
+				}
+				$('.merchandise-classify').eq(id).html(tableChangehtml)
+			}
+		}
+	})
+}
+

@@ -5,7 +5,7 @@
  * tabBox参数为需要切换的盒子
  */
 function Tabchange(tabBtn,fatherBox,tabBox){
-	$(tabBtn).click(function() {
+	$(tabBtn).mouseenter(function() {
 		//添加类名用addClass
 		$(this).addClass('on')
 		//获取同级盒子.siblings()
