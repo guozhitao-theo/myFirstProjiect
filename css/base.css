@@ -279,6 +279,7 @@
 	top: 0;
 	background: #FF2D52;	
 	display: none;
+	color: #fff;
 	
 	/*css3动画过渡  有问题  只有第一次有用*/
 	/*transition: right 0.5s;*/ 
@@ -301,7 +302,8 @@
 	position: absolute;
 	right: 45px;
 	top: 0;
-	background: #FF2D52;	
+	background: #FF2D52;
+	color: #fff;	
 	display: none;
 	}
 	

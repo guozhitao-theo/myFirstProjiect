@@ -206,4 +206,51 @@ Tabchange('.table-title','.tab-box4','.tab-lists')
 //为了方便图片的地址调用定义一个地址的前缀
 
 
+//<-----------首页数据渲染（ajax）---------------------->
 
+//定义链接的前缀
+var requestUrl = 'http://127.0.0.1:3001/' 
+//推荐商品
+ajaxPackage({
+	method:'get',
+	url: requestUrl+'lists',
+	ansyc: true,
+	data: null,
+	dataType: 'json',
+	success: function(res){
+		console.log(res)
+	}
+})
+//促销商品
+ajaxPackage({
+	method:'get',
+	url: requestUrl+'lists?id=1',
+	ansyc: true,
+	data: null,
+	dataType: 'json',
+	success: function(res){
+		console.log(res)
+	}
+})
+//新品推荐
+ajaxPackage({
+	method:'get',
+	url: requestUrl+'lists?id=2',
+	ansyc: true,
+	data: null,
+	dataType: 'json',
+	success: function(res){
+		console.log(res)
+	}
+})
+//轮播图
+ajaxPackage({
+	method:'get',
+	url: requestUrl+'getbanner',
+	ansyc: true,
+	data: null,
+	dataType: 'json',
+	success: function(res){
+		console.log(res)
+	}
+})
