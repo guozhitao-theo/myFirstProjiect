@@ -199,3 +199,17 @@
 	line-height: 40px;
 	font-size: 16px;
 }
+/*验证错误的样式*/
+label.error{
+	position: absolute;
+	top: -31px;
+	right: 39px;
+	font-size: 12px;
+	color: red;
+	width: 270px;
+    height: 30px;
+    line-height: 20px;
+    background-size: cover;
+    padding-left: 10px;
+    background: url(../img/错误提示.png) no-repeat
+}
