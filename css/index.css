@@ -235,6 +235,10 @@
 	height: 100%;
 	border: 1px solid  #E2E2E2;
 	padding: 20px 20px 9px 20px;
+	border-right: 0;
+}
+.merchandise-classify-lists:last-child{
+	border: 1px solid #E2E2E2;
 }
 /*设置商品推荐图片大小*/
 .merchandise-img{

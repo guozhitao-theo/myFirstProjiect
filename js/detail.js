@@ -98,16 +98,10 @@ commentFirstBtn.click(function(){
 showcoments()
 
 function showcoments(){
-	
-	
 	//获取发表评论按钮
 	var commentBtn = $('.commenting-btn')
 	//给按钮添加点击事件
-	
 	commentBtn.click(function(){
-		
-
-		
 		//获取textarea
 		var commentContentValue = $('.commenting-content').val()
 		console.log(commentContentValue)
@@ -135,12 +129,13 @@ function showcoments(){
 				$('.commenting-box').css({
 //					display: 'none'
 				})
-				
 			}
-			
 		}
 	})
-		
-		
 }
 
+//<---------放大镜-------------->
+$('.jqzoom').jqzoom({
+	width: 400,
+	height:400
+})

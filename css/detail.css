@@ -1,5 +1,8 @@
 
 /*存放详情页面的css*/
+.main-nav{
+	z-index: 2;
+}
 
 
 /*位置导航*/
@@ -23,7 +26,20 @@
 .goods-show-left-img{
 	width: 400px;
 	height: 400px;
+	position: relative;
 }
+.jqzoom{
+	position: relative;
+}
+/*大图片内部移入放大时的小框*/
+/*.jqzoom-child{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 0;
+	background: rgba(0,0,0,10%);
+	z-index: 2;
+}*/
 /*小图片滑动框*/
 .little-img-box{
 	height: 56px;

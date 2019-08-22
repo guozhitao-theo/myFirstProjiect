@@ -1,13 +1,20 @@
 /*<--------分割线---------------->*/
 /*登陆界面*/
+.body-box{
+	background: #e93854;
+}
+@media screen and (max-device-height: 1200px) {
+	
+
 .body-content{
 	height: 476px;
 	position: relative;
 	padding: 20px 0;
 	padding-left: 765px;
 	padding-right: 140px;
-	margin: ;
-	background: url(../img/login-banner.png);
+	background: url(../img/登录轮播图.png) no-repeat;
+	background-size: 100%;
+}
 }
 /*登录*/
 .login{
@@ -212,4 +219,10 @@ label.error{
     background-size: cover;
     padding-left: 10px;
     background: url(../img/错误提示.png) no-repeat
+}
+
+/*验证按钮的背景颜色设置*/
+.verificationing{
+	background: #E2E2E2;
+	cursor: not-allowed;
 }

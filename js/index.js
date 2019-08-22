@@ -245,7 +245,7 @@ function  recommendedData(id){
 								${tableChangeLists[i].title}
 							</div>
 							<div class="merchandise-price font-14 font-red">
-								${tableChangeLists[i].price}
+								¥${tableChangeLists[i].price}
 							</div>
 						</li>`
 				}
@@ -255,3 +255,10 @@ function  recommendedData(id){
 	})
 }
 
+//<---------------懒加载--------------------->
+$('img').lazyload({
+//	 skip_invisible : false,
+	placeholder_data_img: "img/加载中.gif",
+	effect: 'fadeIn',
+	threshold:200
+})

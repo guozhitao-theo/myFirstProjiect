@@ -98,3 +98,51 @@ $.validator.addMethod('tel',function(value,element){
 	return reg.test(value)
 	
 },'请输入手机号')
+
+//定义一个变量来接受cookie
+var cookia = $.cookie('cookie')
+//判断是cookie是否有
+if(cookia){
+	verifCountDown(cookia)
+}
+//验证码的实现倒计时
+//给获取验证码添加点击事件
+$('.get-verific').click(function(){
+	//定义一个_this 用于传参
+	var _this =  this
+	//如果已经点击过后，则不能再点
+	if($(this).hasClass('verificationing')){
+		return
+	}
+	verifCountDown(60)
+})
+
+//设置倒计时方法
+//@param count 为一个number类型，为倒计时的时间
+function verifCountDown(count){
+	//重设按钮上的文字为60s后重新获取
+	$('.get-verific').html(count+'s后重新获取')
+	//给按钮添加一个类名使其颜色变为灰色，并且hover为不可点击
+	$('.get-verific').addClass('verificationing')
+	//添加定时器，让内容的倒计时动起来
+	var timer = setInterval(function(){
+		//定时器每执行一次就使count-1
+		count--
+		//将count重新写入内容
+		$('.get-verific').html(count+'s后重新获取')
+		//将倒计时的时间存入cookie中
+		$.cookie('cookie',count)
+
+		//判断定时器停止，count<1就停止定时器
+		if(count<1){
+			//清楚定时器
+			clearInterval(timer)
+			//清楚按钮上的类名
+			$('.get-verific').removeClass('verificationing')
+			//重置内容
+			$('.get-verific').html('再次获取')
+			//清除cookie
+			$.removeCookie('cookie')
+		}
+	},1000)
+}
