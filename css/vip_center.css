@@ -173,7 +173,7 @@
 
 /*右边*/
 .first-page{
-	display: none;
+	display: block;
 }
 .second-page{
 	display: none;
@@ -185,7 +185,7 @@
 	display: none;
 }
 .fifth-page{
-	
+	display: none;
 }
 /*实名认证*/
 .real-name{

@@ -136,6 +136,20 @@ function showcoments(){
 
 //<---------放大镜-------------->
 $('.jqzoom').jqzoom({
-	width: 400,
-	height:400
+	//设置显示放大图片盒子的位置
+	showTop:0,
+	showLeft:600,
+	//设置显示放大图片的宽和高
+	showWidth:400,
+	showHeight:300
+})
+
+//<---点击切换---->
+$('.little-img-lists-box').handover({
+	showBox: '.little-img-lists-box',
+	single: '.little-img-list',
+	content: '.little-img-lists',
+	leftBtn:'.little-img-btn-left',
+	rightBtn: '.little-img-btn-right',
+	overClass: 'over'
 })

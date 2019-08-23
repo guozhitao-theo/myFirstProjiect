@@ -59,7 +59,10 @@
 .little-img-btn:hover{
 	background: #f7f7f7;
 }
-
+/*图片的hover*/
+.little-img-lists li img:hover{
+	border: 1px solid #FF2D52;
+}
 /*小图标列表*/
 .little-img-lists li{
 	float: left;
@@ -67,19 +70,17 @@
 	
 }
 .little-img-lists{
-	width: 4000px;
-	padding-left: 33px;
+	padding-left: 0px;
 	position: absolute;
 	top: 0px;
-	left: -24px;
+	left: 0px;
 }
 /*左边小图标列表切换的外盒子*/
 .little-img-lists-box{
 	background: #DD4A68;
-	margin-left: 30px;
+	margin-left: 34px;
 	height: 58px ;
-	width: 340px;
-	padding-left: 10px;
+	width: 330px;
 	position: relative;
 	overflow: hidden;
 }
@@ -558,5 +559,15 @@ height: 56px;
 }
 .page-up:hover{
 	background: #f2f2f2;
+	cursor: not-allowed;
+}
+
+/**/
+a.over{
+	background: gainsboro;
+	cursor: not-allowed;
+}
+a.over:hover{
+	background: gainsboro;
 	cursor: not-allowed;
 }
