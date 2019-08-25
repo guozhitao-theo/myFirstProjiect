@@ -1,0 +1,272 @@
+/*秒杀页面css代码存储*/
+
+.groupBuy-countdown-box{
+	/*height: 84px;*/
+	width: 100%;
+	background: #fff;
+	background-image: url(../img/倒计时横幅.png) ;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+/*顶部小标题导航*/
+.title-nav-box{
+	overflow: hidden;
+	white-space: nowrap;
+	height: 36px;
+}
+.title-nav-box li{
+	float: left;
+	padding-right: 20px;
+	height: 36px;
+	line-height: 36px;
+}
+
+
+/*商品分类盒子*/
+.groupBuy-classify-box{
+	height: 40px;
+	width: 100%;
+	background: #EDEDED;
+}
+.groupBuy-classify-content{
+	height: 100%;
+	padding: 4px 0;
+}
+.groupBuy-classify-content li{
+	float: left;
+	height: 32px;
+	color: #8b8c8c;
+	line-height: 32px;
+	padding:0 28px;
+	border-right: 1px solid #E2E2E2;
+}
+.groupBuy-classify-content li:first-child{
+	padding-left: 0;
+}
+.arrangement-order{
+	display: inline-block;
+	line-height: 16px;
+	color: #fff;
+	background: #FF2D52;
+}
+.line-height-14{
+	line-height: 14px;
+}
+/*当前秒杀时间*/
+.now{
+	background: #121212;
+	border-top: 1px solid #FF2D52;
+}
+
+/*商品内容*/
+.groupBuy-goods-box{
+	margin-top: 20px;
+	padding-right: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-content: space-around;
+}
+.groupBuy-goods-box:after {
+    content: "";
+    flex: auto;
+    justify-content: ;
+    align-content: space-around;
+ }
+/*单个商品*/
+.groupBuy-goods-list{
+	width: 232px;
+	height: 322px;
+	border: 0px solid #E2E2E2;
+	display: inline-block;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	position: relative;
+}
+.groupBuy-goods-img{
+	width: 210px;
+	height: 210px;
+	text-align: center;
+	
+}
+.surplus-box{
+	color: #ff92a5;
+}
+/*进度条*/
+.progress-out{
+	display: inline-block;
+	width: 64px;
+	height: 6px;
+	border: 1px solid #ff92a5;
+	border-radius: 3px;
+	overflow: hidden;
+}
+.progress-in{
+	width: 30%;
+	background: #ff92a5;
+	height: 100%;
+}
+.groupBuy-goods-img img{
+	max-width: 210px;
+	max-height: 210px;
+}
+.groupBuy-goods-text{
+	width: 100%;
+	height: 60px;
+	line-height: 20px;
+}
+.groupBuy-goods-list-content{
+	border: 1px solid #E2E2E2;
+	border-bottom: 0;
+}
+.groupBuy-goods-list-incontent{
+	padding: 9px;
+	padding-bottom: 0;
+	border: 1px solid #fff;
+	border-bottom: 0;
+}
+.groupBuy-goods-list:hover .goods-bottom{
+	display: none;
+}
+.groupBuy-goods-list:hover .snatch-box{
+	display: block;
+}
+.groupBuy-goods-list:hover .groupBuy-goods-list-content{
+	border: 1px solid #FF2D52;
+	border-bottom: 0;
+}
+.groupBuy-goods-list:hover .groupBuy-goods-list-incontent{
+	border: 1px solid #FF2D52;
+	border-bottom: 0;
+}
+/*商品售完之后的*/
+.groupBuy-goods-list.over:hover .goods-bottom{
+	display: block;
+}
+.groupBuy-goods-list.over:hover .groupBuy-goods-list-content{
+	border: 1px solid #E2E2E2;
+	border-bottom: 0;
+}
+.groupBuy-goods-list.over:hover .groupBuy-goods-list-incontent{
+	border: 1px solid #fff;
+	border-bottom: 0;
+}
+
+.goods-bottom{
+	height: 40px;
+	line-height: 40px;
+	border: 1px solid #E2E2E2;
+	border-top: 0;
+	padding: 0 10px;
+}
+/*马上抢盒子*/
+.snatch-box{
+	height: 40px;
+	background: #FF2D52;
+	line-height: 40px;
+	text-align: center;
+	display: none;
+}
+/*马上抢按钮*/
+.snatch-btn{
+	display: inline-block;
+	font-size: 16px;
+	width: 78px;
+	height: 36px;
+	margin-top: 2px;
+	text-align: center;
+	color: #FFf;
+}
+/*换一场*/
+.switch-court-box{
+	text-align: center;
+}
+.switch-court{
+	display: inline-block;
+	height: 34px;
+	width: 130px;
+	background: #666666;
+	color: #ffffff;
+	text-align: center;
+	line-height: 34px;
+	border-radius: 5px;
+	font-size: 18px;
+	margin-top: 20px;
+}
+.switch-court.up{
+	background: #cccccc;
+	cursor: no-drop;
+}
+.sale-finish:hover{
+	border: 1px solid #E2E2E2;
+	border-bottom: 0;
+}
+.sale-finish:hover .groupBuy-goods-list-incontent{
+	border: 1px solid #fff;
+	border-bottom: 0;
+}
+ 
+.background-999{
+	background: #999999;
+}
+.font-gry{
+	color: #CCCCCC;
+}
+
+/*活动结束定位*/
+.over-show{
+	display: inline-block;
+	height: 82px;
+	width: 82px;
+	background: rgba(157,157,157,80%);
+	position: absolute;
+	top: 58px;
+	left: 74px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 82px;
+	color: #FFFFFF;
+}
+/*分页*/
+.page-box{
+	width: 371px;
+	margin-left: 600px;
+	margin-top: 20px;
+}
+.page-box li{
+	padding: 0 5px;
+	font-size: 14px;
+	float: left;
+}
+.page-button{
+	color: #000;
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	border: 1px solid #E2E2E2;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 30px;
+	
+}
+.page-up{
+	/*background: #f2f2f2;*/
+	
+}
+.page-up, .page-down{
+	width: 68px;
+	height: 30px;
+	border: 1px solid #E2E2E2;
+	border-radius: 5px;
+}
+/*翻页hover*/
+.page-button:hover{
+	background: #FF2D52;
+}
+.page-up:hover{
+	/*background: #f2f2f2;*/
+	/*cursor: not-allowed;*/
+}
+.now{
+	background: red;
+}
