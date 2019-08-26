@@ -2,29 +2,59 @@
 
 /*帮助中心的内容*/
 .help-center-content{
-	background: red;
+	/*background: red;*/
 	margin-top: 20px;
 	display: flex;
 }
 .help-center-left-order{
 	width: 220px;
-	height: 376px;
-	border: 1px solid #E2E2E2;
-	background: #808080;
+	height: 310px;
 }
 /*帮助的文本内容*/
 .help-center-text-box{
 	margin-left: 20px;
-	background: #808080;
 	width: 956px;
-	height: 1000px;
+	border: 1px solid #E2E2E2;
 	padding: 20px;
 }
-.help-center-left-order-box .lists-title{}
+.help-center-left-order-box{
+	border: 1px solid #E2E2E2;
+	border-bottom: 0;
+}
+.help-center-left-order-box .lists-title{
+	display: inline-block;
+	height:40px;
+	width: 100%;
+	line-height: 40px;
+	padding-left: 20px;
+}
+.help-center-left-order-box:last-child .lists-title{
+	border-bottom: 1px solid #E2E2E2;
+}
+.help-center-left-order-box:last-child .help-center-left-order-lists{
+	border-top: 0;
+}
+.help-center-left-order-lists{
+	border-top: 1px solid #E2E2E2;
+	display: none;
+}
+.help-center-left-order-lists:last-child{
+	border-bottom: 1px solid #E2E2E2;
+}
 .help-center-left-order-lists li{
 	width: 100%;
 	height: 36px;
+	padding-left: 20px;
 	line-height: 36px;
 	background: #FFF9F5;
-	
+}
+.on{
+	display: none;
+}
+
+/*购物流程盒子*/
+.help-center-text-title-box{
+	border-bottom: 1px dashed #E2E2E2;
+	height: 36px;
+	line-height: 35px;
 }
