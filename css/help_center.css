@@ -1,0 +1,30 @@
+/*这是帮助中心的样式控制*/
+
+/*帮助中心的内容*/
+.help-center-content{
+	background: red;
+	margin-top: 20px;
+	display: flex;
+}
+.help-center-left-order{
+	width: 220px;
+	height: 376px;
+	border: 1px solid #E2E2E2;
+	background: #808080;
+}
+/*帮助的文本内容*/
+.help-center-text-box{
+	margin-left: 20px;
+	background: #808080;
+	width: 956px;
+	height: 1000px;
+	padding: 20px;
+}
+.help-center-left-order-box .lists-title{}
+.help-center-left-order-lists li{
+	width: 100%;
+	height: 36px;
+	line-height: 36px;
+	background: #FFF9F5;
+	
+}
