@@ -224,6 +224,7 @@
 }
 .bottom-info-content-text{line-height: 33px;}
 .bottom-info-content{
+	padding:15px 0;
 	padding-left: 236px;
 }
 
@@ -497,4 +498,7 @@
 }
 .slide-service-number{
 	line-height: 38px;
+}
+.slide-bar.showc{
+	background: #FF2D52;
 }

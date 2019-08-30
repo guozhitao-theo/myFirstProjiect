@@ -95,8 +95,19 @@ document.querySelector('.return-top').onclick = function(){
  //获取客服
  var slideService =document.querySelector('.slide-service')
   //给按键添加点击功能
- for(i=0;i<slideBar.length;i++){
+ for(let i=0;i<slideBar.length;i++){
  	slideBar[i].onclick = function(){
+ 		//
+   		if(this.classList.contains('showc')===true){
+ 			for(let j = 0;j<slideBar.length;j++){
+ 				slideBar[j].classList.remove('showc')
+ 			}	
+ 		}else{
+ 			slideBar[i].classList.add('showc')
+ 		}
+ 		
+ 		
+ 			
  		//获取盒子 的位置 和移动的距离即属性right值用于判断盒子的进出
  		//定义right初始值
  		var right = 0 
