@@ -498,6 +498,7 @@
 }
 .slide-service-number{
 	line-height: 38px;
+	white-space: nowrap;
 }
 .slide-bar.showc{
 	background: #FF2D52;

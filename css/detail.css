@@ -77,7 +77,6 @@
 }
 /*左边小图标列表切换的外盒子*/
 .little-img-lists-box{
-	background: #DD4A68;
 	margin-left: 34px;
 	height: 58px ;
 	width: 330px;
@@ -260,12 +259,59 @@ height: 56px;
 }
 /*商品导航*/
 .goods-nav{
+	position: relative;
 	height: 40px;
 	background :#fff9f5;
 	line-height: 40px;
+	border: 1px solid #E2E2E2;
+	border-bottom:0;
+	
+	
 }
 .goods-nav a{
 	padding: 0 20px;
+	display: inline-block;
+	width: 100px ;
+	height: 40px ;
+	text-align: center;
+	line-height: 38px;
+	border-top: 2px solid  #fff9f5;
+
+}
+.goods-nav a:hover{
+	border-top: 2px solid #FF2D52;
+	background: #fff;
+}
+/*手机二维码*/
+.phone-qr-box{
+	border: 1px solid transparent;
+	position: absolute;
+	display: block;
+	width: 142px ;
+	height: 178px;
+	text-align: center;
+	top: 0;
+	left: 85.2%;
+	
+	
+}
+.phone-qr-box:hover{
+	display: block;
+	border-left: 1px solid #E2E2E2;
+	border-bottom: 1px solid #E2E2E2;
+	background: #fff;
+	color: #FF2D52;
+}
+.phone-qr-box:hover .phone-qr{
+	display: block;
+	
+}
+.phone-qr{
+	display: none;
+	font-size: 0;
+}
+.phone-qr img{
+	max-width: 132px;
 }
 /*商品详情*/
 .goods-introduce{
@@ -275,6 +321,7 @@ height: 56px;
 .goods-introduce li{
 	float: left;
 	padding-right: 40px;
+	font-size: 12px;
 }
 .goods-img{
 	height: 608px;
@@ -282,6 +329,7 @@ height: 56px;
 }
 .goods-detial{
 	border: 1px solid #E2E2E2;
+	border-top: 0;
 	
 }
 /*商品晒单评价*/

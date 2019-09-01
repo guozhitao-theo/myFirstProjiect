@@ -3,8 +3,8 @@
 //倒计时
 countDownT()
 var countInterval =  setInterval(countDownT,1000 )
-function countDownT(){
-	var countDownTime = countDown('2019-8-22 20:24:00')
+function countDownT(time){
+	var countDownTime = countDown('2019-9-2 20:24:00')
 	if(parseInt(countDownTime)<=0){
 		clearInterval(countInterval)
 	}
