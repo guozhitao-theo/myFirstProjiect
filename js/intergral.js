@@ -13,9 +13,10 @@ let timeT = ['2019-9-20 19:20:20',
 for(let i =0;i<timeT.length;i++){
 	//获取需要添加倒计时的盒子
 	var  intergralDownTime = document.querySelectorAll('.down-time')
-	var countInterval =  setInterval(countDownT(timeT[i]),1000)
 	intergralDownTime[i].innerHTML=countDownT(timeT[i])
-	
+	var countInterval =  setInterval(function(){
+		intergralDownTime[i].innerHTML=countDownT(timeT[i])
+	},1000)
 }
 
 
